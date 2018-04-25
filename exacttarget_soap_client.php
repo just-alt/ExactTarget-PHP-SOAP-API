@@ -1,5 +1,5 @@
 <?php 
-//require('soap-wsse.php');
+require('soap-wsse.php');
 
 class ExactTargetSoapClient extends SoapClient {
 	public $username = NULL;
